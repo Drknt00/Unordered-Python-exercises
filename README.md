@@ -33,3 +33,19 @@ while count < 3:
     count = count +1
 
 #in the above example, the section count + 1 will add one from the initial cound 0, it will keep on running to 1, 2, 3 and 4, the condition is met at 4, the loop stops .
+
+
+# 3 - Basic multiplication table with while loops:
+
+# basic multiplication table
+
+number = int(input("Enter a number: "))
+
+count = 1
+
+while count <= 10:
+    product = number * count
+    print(product)
+    count = count + 1
+
+    
