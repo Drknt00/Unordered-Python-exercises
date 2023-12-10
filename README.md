@@ -68,3 +68,29 @@ for count in range(1, 13):
 # the code value 13 is excluded in the output, as it stops to 1 item prior to it.
 
 
+
+# 5- the "break" statement
+
+# Using break allows to stop a code from continuing when a certain required is met
+
+for item in range(1, 11):
+    if item == 9:
+        break
+    print(item)
+
+# in the above, given that the condition is set to 9, the code will break (stop) a digit before it, at 8 .
+
+
+# 6- The "continue statement
+# as the name indicates, it allows a code to run even after a condition is met
+
+for i in range(7):
+    digit = int(input("enter a digit: "))
+    if digit > 12:
+        continue
+    print(digit)
+
+# in the above example, the code will keep on running, the user will be prompted to input a digit until the range 6 (one less that the 7) is met.
+
+
+
