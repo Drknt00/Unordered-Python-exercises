@@ -93,4 +93,36 @@ for i in range(7):
 # in the above example, the code will keep on running, the user will be prompted to input a digit until the range 6 (one less that the 7) is met.
 
 
+7- #Functions
+# a function is basically a collective statements that can be used when called upon:
+
+def message():
+    print("Warning!")
+    print("Computation error, self-destroy in 3 min!")
+
+message()
+
+# in the above example, the function message, when called (since it was defined with the two statments above it), will be displayed.
+
+# Functions can be used in a variety of ways, greeting someone, doing a specific task, etc.
+
+def elevate(task):
+    print("I will elevate", task)
+
+elevate("programing")
+
+# the output of the above code, when the func is elave() is called would be "I will elevate programing"
+
+
+#another example of using functions to make calculations:
+
+def multiply_digits(d1, d2):
+    result = d1 * d2
+    print("the result is", result)
+
+d1 = 3
+d2 = 4
+multiply_digits(d1, d2)
+
+
 
