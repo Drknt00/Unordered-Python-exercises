@@ -125,4 +125,21 @@ d2 = 4
 multiply_digits(d1, d2)
 
 
+#8 - Object oriented programming : classes - __init__ method, and self:
+
+class User:
+    def __init__(self, full_name, birthday):
+        self.name = full_name
+        self.birthday = birthday #yyymmdd
+
+        # Extract first and last names
+        name_pieces = full_name.split(" ")
+        self.first_name = name_pieces[0]
+        self.last_name = name_pieces[-1]
+
+user = User("Roronoa Zorro", "19950512")
+print(user.name)
+print(user.first_name)
+print(user.last_name)
+print(user.birthday)
 
