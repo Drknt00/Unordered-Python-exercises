@@ -48,4 +48,23 @@ while count <= 10:
     print(product)
     count = count + 1
 
-    
+
+# 4 - For loops
+
+# basic for loop
+
+words = ["her", "there", "up", "down"]
+for word in words:
+    print(word)
+
+# the above example shows how for loops work in python, it itirates through items in a given list.
+
+ # using the range() built-in funchtion
+# this functions is similar to the while loop but in a for loop:
+
+for count in range(1, 13):
+    print(count)
+
+# the code value 13 is excluded in the output, as it stops to 1 item prior to it.
+
+
