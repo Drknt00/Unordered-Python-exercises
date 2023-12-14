@@ -143,3 +143,17 @@ print(user.first_name)
 print(user.last_name)
 print(user.birthday)
 
+# More on OOP:
+
+class Robot:
+    pass
+
+Robot.name = "Blyx"
+Robot.age = 1
+
+print(Robot.name)
+print(Robot.age)
+
+# the keyword "pass" is in this case used a placeholder, allowing for the code to be executed without an error.
+
+
