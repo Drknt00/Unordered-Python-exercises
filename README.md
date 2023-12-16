@@ -156,4 +156,44 @@ print(Robot.age)
 
 # the keyword "pass" is in this case used a placeholder, allowing for the code to be executed without an error.
 
+# More on OOP: the __init__ method: the initializer methord in classes allows to create attribute for objects, laying the blueprint of is inteded to and avoid repetion. This reduces the lines of code significantly:
+
+# Let's take the following code:
+
+class Employee:
+    pass
+
+emp_1 = Employee()
+emp_2 = Employee()
+
+emp_1.first = "Hary"
+emp_1.last = "Seldon"
+emp_1.email = "hary.seldon@trantor.com"
+emp_1.pay = 50000
+
+emp_2.first = "Salvor"
+emp_2.last = "Hardin"
+emp_2.email = "salvor.hardin@trantor.com"
+emp_2.pay = 20000
+
+print(emp_1.email)
+print(emp_2.email)
+
+# to print the email addresses, using the def __init__ will only require the following:
+
+class Employee:
+    def __init__(self, first, last, pay):
+        self.first = first
+        self.last = last
+        self.email = first + "." + last + '@trantor.com'
+        self.pay = pay     
+
+
+emp_1 = Employee("Hary", "Seldon", 50000)
+emp_2 = Employee("Salvor", "Hardin", 2000)
+
+
+print(emp_1.email)
+print(emp_2.email)
+
 
