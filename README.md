@@ -154,9 +154,9 @@ Robot.age = 1
 print(Robot.name)
 print(Robot.age)
 
-# the keyword "pass" is in this case used a placeholder, allowing for the code to be executed without an error.
+# the keyword "pass" is in this case used as a placeholder, allowing for the code to be executed without an error.
 
-# More on OOP: the __init__ method: the initializer methord in classes allows to create attribute for objects, laying the blueprint of is inteded to and avoid repetion. This reduces the lines of code significantly:
+# More on OOP: the __init__ method: the initializer method in classes allows to create attributes for objects, laying the blueprint of is inteded to and avoid repetions. This reduces the lines of code significantly:
 
 # Let's take the following code:
 
