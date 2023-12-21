@@ -197,3 +197,22 @@ print(emp_1.email)
 print(emp_2.email)
 
 
+#9 Python modules: a module is a file containing codes that can be used to program, there are many of them, one popular is the math module, allowind for calculations:
+
+import math
+
+number = 65
+result = math.sqrt(number)
+print(result)
+
+print(math.pi)
+
+# The output will be as follow:
+
+8.06225774829855
+3.14159265358979
+
+#The math module was imported, (by using the import math), import is the required statement to proceed, when imported, everything inside a module can be used after the dot operator.
+In this case, we used .sqrt for square root of number, number being 65.
+We then printed the result (square root of 65) and the value of pie (with math.pi), hence the output.
+
