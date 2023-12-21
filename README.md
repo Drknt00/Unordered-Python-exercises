@@ -212,6 +212,20 @@ print(math.pi)
 8.06225774829855
 3.14159265358979
 
+the module can also be renamed:
+
+import math as m
+
+number = 65
+result = m.sqrt(number)
+print(result)
+print(m.pi)
+
+# the result come as the same:
+8.06225774829855
+3.141592653589793
+
+
 #The math module was imported, (by using the import math), import is the required statement to proceed, when imported, everything inside a module can be used after the dot operator.
 In this case, we used .sqrt for square root of number, number being 65.
 We then printed the result (square root of 65) and the value of pie (with math.pi), hence the output.
