@@ -248,3 +248,17 @@ import math
 print(dir(math))
 the output will bring all the associated tasks/features or operations that can be done with the math module.
 
+
+# custom Modules can also be created in python by creating a file with the .py extension as a name (eg: private.py), and add a few functions inside:
+
+def multiply(a, b):
+    return a * b
+
+def add (a + b)
+    return a + b
+etc... the file itself becomes a module and can be used by imoprting it as follow:
+
+import private
+result = private.multipy(5, 3)
+print(result) will display 15 as the output.
+
