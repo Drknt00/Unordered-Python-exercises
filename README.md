@@ -242,3 +242,9 @@ print(number)
 
 the output would be 5.0 .
 
+# the dir function: displays all the features inside of a module when called.
+
+import math
+print(dir(math))
+the output will bring all the associated tasks/features or operations that can be done with the math module.
+
