@@ -230,3 +230,15 @@ print(m.pi)
 In this case, we used .sqrt for square root of number, number being 65.
 We then printed the result (square root of 65) and the value of pie (with math.pi), hence the output.
 
+# the from import statement
+
+Importing a modue gives access to everyhting included in it, if we only need to use a specific constant, function...the "from import" statement is useful.
+
+# a simple example would be the follwoing:
+
+from math import sqrt
+number = sqrt(25)
+print(number)
+
+the output would be 5.0 .
+
