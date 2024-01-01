@@ -272,4 +272,21 @@ import private
 result = private.multipy(5, 3)
 print(result) will display 15 as the output.
 
+#Creating an agenda in python using subroutines and while loops, if and else statements:
 
+myAgenda = []
+
+def printList():
+    print()
+    for item in myAgenda:
+        print(item)
+
+while True:
+    menu = input("add or remove?: ")
+    if menu == "add":
+        item = input("What is the next on the agenda?: ")
+        myAgenda.append(item)
+    elif menu == "remove":
+        item = input("what would you like to remove?: ")
+        myAgenda.remove(item)
+    printList
