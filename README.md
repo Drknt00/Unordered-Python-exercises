@@ -242,6 +242,16 @@ print(number)
 
 the output would be 5.0 .
 
+# Another useful module is the random module.
+
+When called , using the the random.randit, it can help index a items in a list:
+
+import random
+new_stuff = ["reading", "exercising", "meditating", "sleeping"]
+index = random.randint
+print(new_stuff[2])
+
+
 # the dir function: displays all the features inside of a module when called.
 
 import math
@@ -261,4 +271,5 @@ etc... the file itself becomes a module and can be used by imoprting it as follo
 import private
 result = private.multipy(5, 3)
 print(result) will display 15 as the output.
+
 
