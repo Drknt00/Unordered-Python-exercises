@@ -316,7 +316,7 @@ encrypt(plain_text=text, shift_amount=shift)
 
 -------------------------------------------------------------------
 
-Basic lambda use case:
+#Basic lambda use case:
 
 seq = [1,2,3,4,5]
 list(map(lambda var:var*2, seq))
@@ -324,3 +324,10 @@ list(map(lambda var:var*2, seq))
 instead of using functions, the above will return:
 [2, 4, 6, 8, 10]
 it applies a *2 to every single item in the list
+
+seq is a list of numbers [1,2,3,4,5].
+lambda var: var*2 is a lambda function that takes an input var and returns var*2, effectively doubling the input.
+map is a built-in Python function that applies a given function to each item of an iterable (like a list) and returns a map object.
+list(map(lambda var:var*2, seq)) applies the lambda function to each element in seq, doubling each element. The list() function is used to convert the map object to a list.
+So, the output of this code would be a new list with each element in seq doubled: [2, 4, 6, 8, 10]. This is because the lambda function doubles each number in the original seq list.
+
