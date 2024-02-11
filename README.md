@@ -313,3 +313,14 @@ def encrypt(plain_text, shift_amount):
     print(f"The encoded text is {cipher_text}")
 encrypt(plain_text=text, shift_amount=shift)
 
+
+-------------------------------------------------------------------
+
+Basic lambda use case:
+
+seq = [1,2,3,4,5]
+list(map(lambda var:var*2, seq))
+
+instead of using functions, the above will return:
+[2, 4, 6, 8, 10]
+it applies a *2 to every single item in the list
