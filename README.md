@@ -331,3 +331,30 @@ map is a built-in Python function that applies a given function to each item of 
 list(map(lambda var:var*2, seq)) applies the lambda function to each element in seq, doubling each element. The list() function is used to convert the map object to a list.
 So, the output of this code would be a new list with each element in seq doubled: [2, 4, 6, 8, 10]. This is because the lambda function doubles each number in the original seq list.
 
+
+----------------------------------------------------------------------------
+
+#Using Numpy: numpy is a library that helps with mulit-dimensional arrays (more on this later on).
+
+The follwoing is a basic use case for it:
+
+to use the library, it must first be imported
+
+import numpy as np
+my_matrix = [1,2,3],[4,5,6],[7,8,9]
+print(np.array(my_matrix))
+
+print(np.arange(0,10,2))
+
+the above code will have the following output:
+
+[[1 2 3]
+ [4 5 6]
+ [7 8 9]]
+the above output pertains to the my_matrix as np.array, which provided a 2 dimensional dataset (4 columns and 3 rows).
+#as for the last line of code (with the arange method), it was to arange the data from 0 to 10 (not including 10 so only to 9) with an iteration of 2, hence the below output
+
+[0 2 4 6 8]
+
+
+
